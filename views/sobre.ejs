@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sobre</h2>
+    <p>Me chamo <%= nome %> e</p>
+    <p>tenho <%= idade %> anos.</p>
+    <ul>
+        <% contatos.forEach(function(infos){ %>
+        <li><%= infos.info %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
